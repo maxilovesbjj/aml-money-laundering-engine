@@ -1,0 +1,16 @@
+﻿# Entornos
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Datos y modelos
+data/raw/
+data/processed/
+models/*.json
+models/*.pkl
+!models/metrics.json
+
+# Configuracion
+.env
